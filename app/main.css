@@ -1,0 +1,157 @@
+:root {
+    --espinitas-azulclaro: #9ED2D6;
+    --espinitas-azulbrillante: #3CA5AC;
+    --espinitas-dorado: #AF9265;
+    --espinitas-grisoscuro: #464646;
+    --espinitas-hueso: #F8F8F0;
+    --espinitas-naranja: #FFBA69;
+    --espinitas-primary: var(--espinitas-azulbrillante);
+    --espinitas-secondary: var(--espinitas-naranja);
+}
+
+.espinitas-primary {
+    color: var(--espinitas-primary);
+}
+
+.espinitas-secondary {
+    color: var(--espinitas-secondary);
+}
+
+.espinitas-icons {
+    color: var(--espinitas-dorado);
+}
+
+#viewContainer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.app-footer {
+    margin: 0;
+    min-height: 4rem;
+}
+
+.app-hide {
+    display: none;
+}
+
+.app-show {
+    display: block;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid green;
+}
+
+.blue {
+    outline: 1px solid blue;
+}
+
+.card-body-home {
+    background-color: #F5F5F5;
+    min-height: 7rem;
+}
+
+.card-footer-home {
+    border: 0;
+}
+
+.donaciones-card-body {
+    min-height: 14rem;
+}
+
+.donaciones-tarjeta {
+    min-height: 18rem;
+}
+
+.donaciones-tarjeta-centrada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dotted {
+    outline: 1px dotted green;
+}
+
+.home-encabezado {
+    background-color: rgb(157, 210, 214);
+    margin: 0;
+}
+
+.home-encabezado-bg {
+    position: relative;
+    z-index: 0;
+}
+
+.home-encabezado-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .05;
+    z-index: -1;
+    background-image: url('../resources/images/fondo001.gif');
+    background-size: cover;
+}
+
+.home-encabezado-img {
+    width: 20rem;
+    height: auto
+}
+
+.home-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-button-card {
+    display: flex;
+    border: 10px solid #A57196;
+    border-radius: 50%;
+    height: 12.5rem;
+    width: 12.5rem;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-button-v1 {
+    border-color: #F2F6D0;
+}
+
+.home-button-v2 {
+    border-color: #A57197;
+}
+
+.home-button-v3 {
+    border-color: #FFBB6A;
+}
+
+.home-card {
+    padding: 1rem;
+}
+
+.home-button-title {
+    margin-top: 1.5rem;
+    /* border-bottom: 2px solid #FFBA69; */
+}
+
+.home-button-text {
+    margin-top: 2rem;
+}
